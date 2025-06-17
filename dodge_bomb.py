@@ -29,6 +29,9 @@ def check_bound(rct:pg.Rect) -> tuple[bool,bool]:
     return yoko, tate
 
 
+# def get_kk_img(sum_mv: tuple[int,int]) -> pg.Surface:
+
+
 def gameover(screen: pg.Surface) -> None:  #ゲームオーバー画面
     go_img = pg.Surface((WIDTH,HEIGHT))  #黒画面
     pg.draw.rect(go_img,(0,0,0),(0,0,400,300))
